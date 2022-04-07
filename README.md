@@ -1,2 +1,3 @@
 # CPP(hacker rank)
-I will post all hacker rank solutions for cpp here.
+All my hacker rank c++ solutions are here :)
+Enjoy Folks :)
