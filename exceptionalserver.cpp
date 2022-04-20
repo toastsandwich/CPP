@@ -33,22 +33,22 @@ int main() {
 	while(T--) {
 		long long A, B;
 		cin >> A >> B;
-try
-{
-    cout<<Server::compute(A,B)<<endl;
-}
-catch(bad_alloc& error)
-{
-    cout<<"Not enough memory"<<endl;
-}
-catch(exception& error)
-{
-    cout<<"Exception: "<<error.what()<<endl;
-}
-catch(...)
-{
-    cout<<"Other Exception"<<endl;
-}
+		try
+		{
+    		cout<<Server::compute(A,B)<<endl;
+		}
+		catch(bad_alloc& error)
+		{
+    		cout<<"Not enough memory"<<endl;
+		}
+		catch(exception& error)
+		{
+    		cout<<"Exception: "<<error.what()<<endl;
+		}
+		catch(...)
+		{
+    		cout<<"Other Exception"<<endl;
+		}
 	}
 	cout << Server::getLoad() << endl;
 	return 0;
